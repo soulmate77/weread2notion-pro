@@ -246,9 +246,9 @@ def get_properties(dict1, dict2):
             property = {
                 "date": {
                     "start": pendulum.from_timestamp(
-                        value, tz="Asia/Shanghai"
+                        value, tz="Europe/Brussels"
                     ).to_datetime_string(),
-                    "time_zone": "Asia/Shanghai",
+                    "time_zone": "Europe/Brussels",
                 }
             }
         elif type == URL:
