@@ -82,7 +82,7 @@ def get_date(start, end=None):
         "date": {
             "start": start,
             "end": end,
-            "time_zone": "Asia/Shanghai",
+            "time_zone": "Europe/Brussels",
         }
     }
 
